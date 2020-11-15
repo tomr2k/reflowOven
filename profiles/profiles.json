@@ -1,0 +1,20 @@
+{
+    "profiles": [
+        {
+            "profile": {
+                "manufacturer": "Chip Quik Inc.",
+                "partNumber": "TS391AX50",
+                "description": "Leaded no-clean solder paste",
+                "reference": "chipquik.com/datasheets/TS391AX50.pdf",
+                "stages": [
+                    { "name": "start",       "temperature": 100, "rate":  2.5,   "duration": 30},
+                    { "name": "preheat",     "temperature": 150, "rate":  0.555, "duration": 90},
+                    { "name": "soak",        "temperature": 183, "rate":  1.1,   "duration": 30},
+                    { "name": "reflow",      "temperature": 235, "rate":  0.866, "duration": 60},
+                    { "name": "post-reflow", "temperature": 183, "rate": -1.733, "duration": 30},
+                    { "name": "cooling",     "temperature":  25, "rate": -2.0,   "duration": 80}
+                ]
+            }
+        }
+    ]
+}
