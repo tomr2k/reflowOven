@@ -28,7 +28,7 @@
                     { "name": "soak",        "temperature": 183, "rate":  1.6, "duration": 30},
                     { "name": "reflow",      "temperature": 232, "rate":  1.6, "duration": 60},
                     { "name": "post-reflow", "temperature": 183, "rate": -1.7, "duration": 30},
-                    { "name": "cooling",     "temperature":  25, "rate": -2.0, "duration": 80}
+                    { "name": "cooling",     "temperature":  25, "rate": -2.5, "duration": 80}
                 ]
             }
         }
