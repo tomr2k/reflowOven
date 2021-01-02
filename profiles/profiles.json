@@ -39,7 +39,7 @@
                 "description": "Spends more than enough time in each phase!",
                 "reference": "www.wandini.com",
                 "stages": [
-                    { "name": "reflow",      "temperature": 232, "rate":  0.7, "duration":270},
+                    { "name": "reflow",      "temperature": 232, "rate":  0.8, "duration":270},
                     { "name": "post-reflow", "temperature": 183, "rate": -1.7, "duration": 30},
                     { "name": "cooling",     "temperature":  40, "rate": -2.0, "duration": 80}
                 ]
